@@ -1,5 +1,16 @@
 //estilo de mi seccion footer
 $black: #222222;
 footer {
-    background-color: black;
-}
+    .footer {
+        background-color: $black;
+        color: white;
+        height: 100px;
+        width: 100%;
+        }
+    p {
+        margin-bottom: 0;
+        margin-left: 30%;
+        margin-right: 0;
+        margin-top: 5%;
+    }
+    }
