@@ -1,0 +1,96 @@
+@import 'parciales/header.scss';
+@import 'parciales/footer.scss';
+$white: #fff;
+$red: #ff0000;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    iframe {
+        height: 400px;
+        width: 100%;
+         background-size: 80%;
+    }
+}
+
+section {
+    .imagen{
+      background-image: url(../img/fondo-about.jpg);
+      background-repeat: no-repeat;
+      background-size: 99%;
+      height: 600px;
+      width: 100%; 
+    }
+    .logo {
+        margin-left: 5%;
+        margin-top: 0%;
+    }
+}
+
+.myClase {
+    .myParrafo{
+        font-family: 'Raleway', sans-serif;
+        background-color: $white;
+        height: 300px;
+        width: 100%;
+        h1 {
+            color: $red;
+            font-size: 50px;
+        }
+    }
+}
+
+.mis-imagenes {
+    my-imagen {
+        height: 500px;
+        width: 100%;
+    }
+}
+
+section {
+    .pregunta{
+        margin-top: 0;
+        font-family: 'Raleway', sans-serif;
+        background-image: url(../img/disfruta.jpg);
+        background-repeat: no-repeat;
+        background-size: 99%;
+        height: 600px;
+        width: 100%;
+        h1 {
+            font-size: 70px;
+            margin-left: 0;
+            margin-top: 10px;
+            color: $white;
+        }
+    }
+}
+
+
+
+//imagen de parrallax los campos
+
+.mis-imagenes1 {
+    .my-imagen1 {
+        background-image: url(../img/parallax-4.jpg);
+        height: 700px;
+        width: 100%;
+    }
+}
+
+//estilo de my seccion de textos y un imagen
+.amamos {
+    .textos-lista {
+        
+    }
+     .cajita{
+         img{
+             height: 100%;
+             width: 80%;
+         }
+        }
+}
+
+

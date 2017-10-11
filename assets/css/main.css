@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif; }
+
+.fondo {
+  background-image: url(../img/fondo-bienvenida.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  height: 600px;
+  width: 100%; }
+  .fondo .logo {
+    background-size: contain;
+    margin-left: 5%; }
+  .fondo .img img {
+    margin-left: 25%;
+    height: 30%;
+    width: 50%; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+  /* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */ }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+  .sidenav a:hover {
+    color: #f1f1f1; }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+
+footer {
+  background-color: black; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+section iframe {
+  height: 400px;
+  width: 100%;
+  background-size: 80%; }
+
+section .imagen {
+  background-image: url(../img/fondo-about.jpg);
+  background-repeat: no-repeat;
+  background-size: 99%;
+  height: 600px;
+  width: 100%; }
+section .logo {
+  margin-left: 5%;
+  margin-top: 0%; }
+
+.myClase .myParrafo {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+  height: 300px;
+  width: 100%; }
+  .myClase .myParrafo h1 {
+    color: #ff0000;
+    font-size: 50px; }
+
+.mis-imagenes my-imagen {
+  height: 500px;
+  width: 100%; }
+
+section .pregunta {
+  margin-top: 0;
+  font-family: 'Raleway', sans-serif;
+  background-image: url(../img/disfruta.jpg);
+  background-repeat: no-repeat;
+  background-size: 99%;
+  height: 600px;
+  width: 100%; }
+  section .pregunta h1 {
+    font-size: 70px;
+    margin-left: 0;
+    margin-top: 10px;
+    color: #fff; }
+
+.mis-imagenes1 .my-imagen1 {
+  background-image: url(../img/parallax-4.jpg);
+  height: 700px;
+  width: 100%; }
+
+.amamos .cajita img {
+  height: 100%;
+  width: 80%; }
+
+/*# sourceMappingURL=main.css.map */
